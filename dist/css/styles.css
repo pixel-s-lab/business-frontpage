@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*!
+* Business Frontpage - v1.0.0 (https://github.com/pixel-s-lab/business-frontpage)
+* Copyright 2022 Pixel (https://pixel.com.ro)
+* Licensed under MIT (https://github.com/pixel-s-lab/business-frontpage/blob/main/LICENSE)
+*/
+html {
+    height: 100%;
+    scroll-padding-top: calc(4.5rem - 1px);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.feature-ico {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: .75rem;
+}
+
+#contact {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: url("../assets/img/bg-contact.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+}
